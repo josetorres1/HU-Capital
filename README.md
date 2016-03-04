@@ -32,3 +32,8 @@ José Torres: https://github.com/josetorres1
 •	Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
 Dylan Zuniga: Próximamente
 •	Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
+
+7. Entregables
+• Hacer una presentacion en power point a los clientes acerca del programa.
+• Subir un video a una plataforma web publica acerca de como usar la aplicacion.
+• Entregar un resumen ejecutivo a las empresas en formato PDF.
