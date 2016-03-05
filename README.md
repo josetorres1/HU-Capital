@@ -23,14 +23,14 @@ Reporte de proyecto
 <br>Nuestros clientes potenciales son primeramente las empresas que quieran contratar personal nuevo y quieran ver el recorrido de los mismos a través de su record académico. 
 
 *5. Enlace al repositorio en Github*
-•	https://github.com/josetorres1/HU-Capital
+* https://github.com/josetorres1/HU-Capital
 
 *6. Equipo*
- <br>Victor Rivera: https://github.com/VictorRC
+<br>Victor Rivera: https://github.com/VictorRC
 * Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
- José Torres: https://github.com/josetorres1
+<br>José Torres: https://github.com/josetorres1
 * Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
- Dylan Zuniga: https://github.com/DilanZuniga
+<br>Dylan Zuniga: https://github.com/DilanZuniga
 * Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
 
 *7. Entregables*
