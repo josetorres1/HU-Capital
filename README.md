@@ -1,10 +1,13 @@
 # HU-Capital
 This repository contains all the files and data that is used to develop the project HU-Capital
 
-<br>Universidad Americana “UAM” 
+<center>
+    <br>Universidad Americana “UAM” 
 <br>profesor: Javier Ernesto Wilson Vásquez
 <br>Materia: Ingeniería de Software I
 <br>Reporte de proyecto
+
+</center>
 
 *1. Titulo*
 <br>HU-Capital
