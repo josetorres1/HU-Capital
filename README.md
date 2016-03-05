@@ -1,15 +1,20 @@
 # HU-Capital
 This repository contains all the files and data that is used to develop the project HU-Capital
 
-Universidad Americana “UAM” 
-Profesor: Javier Ernesto Wilson Vásquez
-Materia: Ingeniería de Software I
-Reporte de proyecto
 
-*1.Titulo*
-	HU-Capital
+<center>
+    <br>Universidad Americana “UAM” 
+<br>profesor: Javier Ernesto Wilson Vásquez
+<br>Materia: Ingeniería de Software I
+<br>Reporte de proyecto
 
-*2.Resumen Ejecutivo*
+</center>
+
+*1. Titulo*
+<br>HU-Capital
+
+*2. Resumen Ejecutivo*
+
 <br>El siguiente documento tiene como fin explicar el proyecto a realizar para la clase de ingeniería de software. El mismo será realizado por estudiantes de cuarto año de las carreras ingeniería en sistemas y gerencia informática y los cuales han tenido la experiencia en desarrollo de aplicaciones que estén gestionadas en la web.
 <br>Pensamos que en el mundo de hoy en día las empresas necesitan a egresados competentes y que muchas veces las mismas no pueden comprobar ciertos requerimientos o características que buscan en los perfiles de los recién graduados de las distintas carreras. Muchas compañías piden cierto tiempo de experiencia laboral, pero por lo general los estudiantes no pudieran tener o estar familiarizados con las tareas a desempeñar. 
 <br>Realmente creemos que es algo que va a facilitar la vida de muchos centros de trabajo y hará que los estudiantes tengan énfasis en desempeñarse de una mejor manera para tener un buen record y esto sirve de soporte al querer obtener algún puesto de trabajo en determinada compañía. 
