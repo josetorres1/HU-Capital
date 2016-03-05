@@ -1,10 +1,10 @@
 # HU-Capital
 This repository contains all the files and data that is used to develop the project HU-Capital
 
-Universidad Americana “UAM” 
-Profesor: Javier Ernesto Wilson Vásquez
-Materia: Ingeniería de Software I
-Reporte de proyecto
+<br>Universidad Americana “UAM” 
+<br>profesor: Javier Ernesto Wilson Vásquez
+<br>Materia: Ingeniería de Software I
+<br>Reporte de proyecto
 
 *1. Titulo*
 <br>HU-Capital
@@ -26,11 +26,11 @@ Reporte de proyecto
 * https://github.com/josetorres1/HU-Capital
 
 *6. Equipo*
-<br><br>Victor Rivera: https://github.com/VictorRC
+*Victor Rivera: https://github.com/VictorRC
 * Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
-<br>José Torres: https://github.com/josetorres1
+*José Torres: https://github.com/josetorres1
 * Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
-<br>Dylan Zuniga: https://github.com/DilanZuniga
+*Dylan Zuniga: https://github.com/DilanZuniga
 * Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
 
 *7. Entregables*
