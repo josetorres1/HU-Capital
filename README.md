@@ -26,8 +26,8 @@ Reporte de proyecto
 * https://github.com/josetorres1/HU-Capital
 
 *6. Equipo*
-
-<br>Victor Rivera: https://github.com/VictorRC
+<br> 
+Victor Rivera: https://github.com/VictorRC
 * Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
 <br>José Torres: https://github.com/josetorres1
 * Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
