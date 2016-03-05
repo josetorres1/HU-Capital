@@ -26,14 +26,14 @@ Nuestros clientes potenciales son primeramente las empresas que quieran contrata
 •	https://github.com/josetorres1/HU-Capital
 
 *6.Equipo*
-Victor Rivera: https://github.com/VictorRC
-•	Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
-José Torres: https://github.com/josetorres1
-•	Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
-Dylan Zuniga: https://github.com/DilanZuniga
-•	Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
+ Victor Rivera: https://github.com/VictorRC
+* Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
+ José Torres: https://github.com/josetorres1
+* Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
+ Dylan Zuniga: https://github.com/DilanZuniga
+* Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
 
 *7. Entregables*
-• Hacer una presentacion en power point a los clientes acerca del programa.
-• Subir un video a una plataforma web publica acerca de como usar la aplicacion.
-• Entregar un resumen ejecutivo a las empresas en formato PDF.
+* Hacer una presentacion en power point a los clientes acerca del programa.
+* Subir un video a una plataforma web publica acerca de como usar la aplicacion.
+* Entregar un resumen ejecutivo a las empresas en formato PDF.
