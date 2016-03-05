@@ -22,23 +22,22 @@ This repository contains all the files and data that is used to develop the proj
 <br>Se pretende trabajar primero en un ámbito educativo-empresarial y si todo sale bien, implementarlo a futuro para empresas que necesiten conocer el record laboral de un colaborador que fuesen a contratar, así tener a mano el historial de las distintas áreas en las cuales se han podido desempeñar y la manera en la que lo hicieron.
 
 
-*3.Descripción con detalles técnicos*
+*3. Descripción con detalles técnicos*
 <br>La aplicación que se desarrollará será en un ambiente web hecha en los lenguajes de PHP y con la base de datos de mysql. Nuestros clientes no necesitaran ningún otro equipo o algo adicional para poder hacer uso del mismo.
 
-*4.Clientes/Usuarios*
+*4. Clientes/Usuarios*
 <br>Nuestros clientes potenciales son primeramente las empresas que quieran contratar personal nuevo y quieran ver el recorrido de los mismos a través de su record académico. 
 
-*5.Enlace al repositorio en Github*
+*5. Enlace al repositorio en Github*
 * https://github.com/josetorres1/HU-Capital
 
-*6.Equipo*
- <br>Victor Rivera: https://github.com/VictorRC
-* Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
- <br>José Torres: https://github.com/josetorres1
-* Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
- <br>Dylan Zuniga: https://github.com/DilanZuniga
-* Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
-
+*6. Equipo*
+* Victor Rivera: https://github.com/VictorRC
+ * Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
+* José Torres: https://github.com/josetorres1
+ * Nació en Managua. Bachiller Colegio Latinoamericano, ingles en la UAM. Carreras sistemas y administración de empresas. Trabajo por cuenta propia. División de programación. 
+* Dylan Zuniga: https://github.com/DilanZuniga
+ * Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
 
 *7. Entregables*
 * Hacer una presentacion en power point a los clientes acerca del programa.
