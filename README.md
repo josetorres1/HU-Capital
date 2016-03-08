@@ -16,7 +16,9 @@ This repository contains all the files and data that is used to develop the proj
 * [Clientes/Usuarios](#cu)
 * [Enlace A Repositorio Github](#enlace)
 * [Equipo](#team)
+* [Entregables](#entregables)
 
+<br>
 *1. Titulo*
 <br>HU-Capital
 
@@ -49,7 +51,7 @@ This repository contains all the files and data that is used to develop the proj
 * Dylan Zuniga: https://github.com/DilanZuniga
  * Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
 
-*7. Entregables*
+<a name=entregables></a>*7. Entregables*
 * Hacer una presentacion en power point a los clientes acerca del programa.
 * Subir un video a una plataforma web publica acerca de como usar la aplicacion.
 * Entregar un resumen ejecutivo a las empresas en formato PDF.
