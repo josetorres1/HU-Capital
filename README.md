@@ -1,7 +1,5 @@
 # HU-Capital
-This repository contains all the files and data that is used to develop the project HU-Capital
-
-
+    
 <center>
     <br>Universidad Americana “UAM” 
 <br>Profesor: Javier Ernesto Wilson Vásquez
@@ -18,11 +16,9 @@ This repository contains all the files and data that is used to develop the proj
 * [Equipo](#team)
 * [Entregables](#entregables)
 
-<br>
-*1. Titulo*
-<br>HU-Capital
 
-<a name=re></a>*2. Resumen Ejecutivo*
+
+><a name=re></a>*Resumen Ejecutivo*
 
 <br>El proyecto HU-Capital responde a la necesidad de las empresas de encontrar capital humano con las competencias y habilidades necesarias para lo que se necesita dentro de la organización y les ayude a alcanzar sus objeticos que se han propuesto para un proyecto o para su función del día a día. 
 <br>
@@ -33,7 +29,7 @@ This repository contains all the files and data that is used to develop the proj
 <br>Se pretende trabajar primero en un ámbito educativo-empresarial e implementarlo de manera introducción en empresas que necesiten conocer el record laboral y educativo de un colaborador que fuesen a contratar, y así tener a mano el historial de las distintas áreas en las cuales se han podido desempeñar y la manera en la que lo hicieron.
 <br>
 
-<a name=ddt></a>*3. Descripción con detalles técnicos*
+><a name=ddt></a>*Descripción con detalles técnicos*
 <br>HU-Capital trata de una aplicación web desarrollada en HTML, CSS, JS y con lenguajes de servidor PHP y MySQL como gestor de base de datos. 
 
 La aplicación tendrá dos áreas los cuales se describen con sus usuarios: 
@@ -45,13 +41,13 @@ o	Persona natural
 o	Empresa desarrolladora de la aplicación. 
 
 
-<a name=cu></a>*4. Clientes/Usuarios*
+><a name=cu></a>*Clientes/Usuarios*
 <br>Nuestros clientes potenciales son primeramente las empresas que quieran contratar personal nuevo y quieran ver el recorrido de los mismos a través de su record académico. 
 
-<a name=enlace></a>*5. Enlace al repositorio en Github*
+><a name=enlace></a>*Enlace al repositorio en Github*
 * https://github.com/josetorres1/HU-Capital
 
-<a name=team></a>*6. Equipo*
+><a name=team></a>*Equipo*
 * Victor Rivera: https://github.com/VictorRC
  * Nació en Managua. Bachiller del Colegio La Salle, ingles en el americano, Carreras sistemas y administración de empresas, laborando para RS21 Nicaragua. Encargado del área técnica del proyecto.
 * José Torres: https://github.com/josetorres1
@@ -59,7 +55,7 @@ o	Empresa desarrolladora de la aplicación.
 * Dylan Zuniga: https://github.com/DilanZuniga
  * Nació en Granada. Bachiller Roberto Clemente Fe y Alegría. Carreras gerencia informática y economía empresarial. Trabajo por cuenta propia. Encargado del grupo y logística.
 
-<a name=entregables></a>*7. Entregables*
+><a name=entregables></a>*Entregables*
 * Hacer una presentacion en power point a los clientes acerca del programa.
 * Subir un video a una plataforma web publica acerca de como usar la aplicacion.
 * Entregar un resumen ejecutivo a las empresas en formato PDF.
