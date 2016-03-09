@@ -24,18 +24,26 @@ This repository contains all the files and data that is used to develop the proj
 
 <a name=re></a>*2. Resumen Ejecutivo*
 
-<br>El siguiente documento tiene como fin explicar el proyecto a realizar para la clase de ingeniería de software. El mismo será realizado por estudiantes de cuarto año de las carreras ingeniería en sistemas y gerencia informática y los cuales han tenido la experiencia en desarrollo de aplicaciones que estén gestionadas en la web.
+<br>El proyecto HU-Capital responde a la necesidad de las empresas de encontrar capital humano con las competencias y habilidades necesarias para lo que se necesita dentro de la organización y les ayude a alcanzar sus objeticos que se han propuesto para un proyecto o para su función del día a día. 
 <br>
-<br>Pensamos que en el mundo de hoy en día las empresas necesitan a egresados competentes y que muchas veces las mismas no pueden comprobar ciertos requerimientos o características que buscan en los perfiles de los recién graduados de las distintas carreras. Muchas compañías piden cierto tiempo de experiencia laboral, pero por lo general los estudiantes no pudieran tener o estar familiarizados con las tareas a desempeñar.
+<br>HU-capital se enfoca en comprobar el historial educativo y profesional de una persona verificando el record académico que obtuvo en los centros de educativos y de capacitación donde estudió o se certificó con respecto a una especialización, diplomado, etc. Este tipo de información ayudara a empresas a escoger de mejor manera su capital humano, siendo este competente para los requisitos de la plaza que solicita o que se le ofrece y por otro lado permite a las instituciones educativas poder respaldar los datos académicos de todos los estudiantes que han pasado y tener mejores relaciones con las empresas. 
 <br>
-<br>Realmente creemos que es algo que va a facilitar la vida de muchos centros de trabajo y hará que los estudiantes tengan énfasis en desempeñarse de una mejor manera para tener un buen record y esto sirve de soporte al querer obtener algún puesto de trabajo en determinada compañía.
+<br>En la actualidad hay grandes riesgos con la veracidad del nivel educativo en las personas debido por la facilidad del internet y de software de edición de fotos y/o documentos para falsificar diplomas o la incluso por la exageración de algunos individuos con los dominios de contenidos técnicos, los cuales son falsos, viendo la realidad el dicho popular: “el papel aguanta todo”.
 <br>
-<br>El tema principal de la aplicación HU-Capital es que las empresas tengan un apoyo sostenible y con base de nuevos egresados en las distintas carreras y que puedan ver su rendimiento a través de toda su vida universitaria. Así podrán comprobar sus habilidades y destrezas en una u otra materia. La ventaja de este sistema sobre otros es que ofrecerá de una manera rápida y ágil a quienes tengan acceso a nuestro servicio, de poder consultar la información que consideren relevante sobre los graduados.
+<br>Se pretende trabajar primero en un ámbito educativo-empresarial e implementarlo de manera introducción en empresas que necesiten conocer el record laboral y educativo de un colaborador que fuesen a contratar, y así tener a mano el historial de las distintas áreas en las cuales se han podido desempeñar y la manera en la que lo hicieron.
 <br>
-<br>Se pretende trabajar primero en un ámbito educativo-empresarial y si todo sale bien, implementarlo a futuro para empresas que necesiten conocer el record laboral de un colaborador que fuesen a contratar, así tener a mano el historial de las distintas áreas en las cuales se han podido desempeñar y la manera en la que lo hicieron.
 
 <a name=ddt></a>*3. Descripción con detalles técnicos*
-<br>La aplicación que se desarrollará será en un ambiente web hecha en los lenguajes de PHP y con la base de datos de mysql. Nuestros clientes no necesitaran ningún otro equipo o algo adicional para poder hacer uso del mismo.
+<br>HU-Capital trata de una aplicación web desarrollada en HTML, CSS, JS y con lenguajes de servidor PHP y MySQL como gestor de base de datos. 
+
+La aplicación tendrá dos áreas los cuales se describen con sus usuarios: 
+•	Área de cliente
+o	Empresas
+o	Centros de educación
+o	Persona natural
+•	Área de administrador
+o	Empresa desarrolladora de la aplicación. 
+
 
 <a name=cu></a>*4. Clientes/Usuarios*
 <br>Nuestros clientes potenciales son primeramente las empresas que quieran contratar personal nuevo y quieran ver el recorrido de los mismos a través de su record académico. 
