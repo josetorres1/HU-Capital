@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.4.1
+-- version 4.5.0.2
 -- http://www.phpmyadmin.net
 --
--- Servidor: localhost
--- Tiempo de generación: 26-04-2016 a las 23:57:29
--- Versión del servidor: 5.7.10-log
--- Versión de PHP: 5.6.18
+-- Host: 127.0.0.1
+-- Generation Time: May 13, 2016 at 02:07 PM
+-- Server version: 5.6.26
+-- PHP Version: 5.6.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `hu-capital`
+-- Database: `hu-capital`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `candidateclassskilltable`
+-- Table structure for table `candidateclassskilltable`
 --
 
 CREATE TABLE `candidateclassskilltable` (
@@ -36,7 +36,7 @@ CREATE TABLE `candidateclassskilltable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `candidateinstitutemajortable`
+-- Table structure for table `candidateinstitutemajortable`
 --
 
 CREATE TABLE `candidateinstitutemajortable` (
@@ -51,7 +51,7 @@ CREATE TABLE `candidateinstitutemajortable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `candidateskilltable`
+-- Table structure for table `candidateskilltable`
 --
 
 CREATE TABLE `candidateskilltable` (
@@ -64,7 +64,7 @@ CREATE TABLE `candidateskilltable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `candidatetable`
+-- Table structure for table `candidatetable`
 --
 
 CREATE TABLE `candidatetable` (
@@ -82,7 +82,7 @@ CREATE TABLE `candidatetable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `classskilltable`
+-- Table structure for table `classskilltable`
 --
 
 CREATE TABLE `classskilltable` (
@@ -94,7 +94,7 @@ CREATE TABLE `classskilltable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `classtable`
+-- Table structure for table `classtable`
 --
 
 CREATE TABLE `classtable` (
@@ -106,7 +106,7 @@ CREATE TABLE `classtable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `companytable`
+-- Table structure for table `companytable`
 --
 
 CREATE TABLE `companytable` (
@@ -119,7 +119,7 @@ CREATE TABLE `companytable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `consultationtable`
+-- Table structure for table `consultationtable`
 --
 
 CREATE TABLE `consultationtable` (
@@ -132,7 +132,7 @@ CREATE TABLE `consultationtable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `institutemajortable`
+-- Table structure for table `institutemajortable`
 --
 
 CREATE TABLE `institutemajortable` (
@@ -144,7 +144,7 @@ CREATE TABLE `institutemajortable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `institutetable`
+-- Table structure for table `institutetable`
 --
 
 CREATE TABLE `institutetable` (
@@ -156,7 +156,7 @@ CREATE TABLE `institutetable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `majortable`
+-- Table structure for table `majortable`
 --
 
 CREATE TABLE `majortable` (
@@ -168,7 +168,7 @@ CREATE TABLE `majortable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `skilltable`
+-- Table structure for table `skilltable`
 --
 
 CREATE TABLE `skilltable` (
@@ -180,7 +180,7 @@ CREATE TABLE `skilltable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `typemajortable`
+-- Table structure for table `typemajortable`
 --
 
 CREATE TABLE `typemajortable` (
@@ -191,7 +191,7 @@ CREATE TABLE `typemajortable` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `usertable`
+-- Table structure for table `usertable`
 --
 
 CREATE TABLE `usertable` (
@@ -201,11 +201,19 @@ CREATE TABLE `usertable` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Índices para tablas volcadas
+-- Dumping data for table `usertable`
+--
+
+INSERT INTO `usertable` (`iduser`, `nameUser`, `passUser`) VALUES
+(1, 'admin', '1234'),
+(3, 'jose', 'jose');
+
+--
+-- Indexes for dumped tables
 --
 
 --
--- Indices de la tabla `candidateclassskilltable`
+-- Indexes for table `candidateclassskilltable`
 --
 ALTER TABLE `candidateclassskilltable`
   ADD PRIMARY KEY (`idcandidateclassskill`),
@@ -213,7 +221,7 @@ ALTER TABLE `candidateclassskilltable`
   ADD KEY `idclassskill` (`idclassskill`);
 
 --
--- Indices de la tabla `candidateinstitutemajortable`
+-- Indexes for table `candidateinstitutemajortable`
 --
 ALTER TABLE `candidateinstitutemajortable`
   ADD PRIMARY KEY (`idcandidateinstitutemajor`),
@@ -222,7 +230,7 @@ ALTER TABLE `candidateinstitutemajortable`
   ADD KEY `idmajor` (`idmajor`);
 
 --
--- Indices de la tabla `candidateskilltable`
+-- Indexes for table `candidateskilltable`
 --
 ALTER TABLE `candidateskilltable`
   ADD PRIMARY KEY (`idcandidateskill`),
@@ -230,13 +238,13 @@ ALTER TABLE `candidateskilltable`
   ADD KEY `idskill` (`idskill`);
 
 --
--- Indices de la tabla `candidatetable`
+-- Indexes for table `candidatetable`
 --
 ALTER TABLE `candidatetable`
   ADD PRIMARY KEY (`idcandidate`);
 
 --
--- Indices de la tabla `classskilltable`
+-- Indexes for table `classskilltable`
 --
 ALTER TABLE `classskilltable`
   ADD PRIMARY KEY (`idclassskill`),
@@ -244,20 +252,20 @@ ALTER TABLE `classskilltable`
   ADD KEY `idskill` (`idskill`);
 
 --
--- Indices de la tabla `classtable`
+-- Indexes for table `classtable`
 --
 ALTER TABLE `classtable`
   ADD PRIMARY KEY (`idclass`),
   ADD KEY `idmajor` (`idmajor`);
 
 --
--- Indices de la tabla `companytable`
+-- Indexes for table `companytable`
 --
 ALTER TABLE `companytable`
   ADD PRIMARY KEY (`idcompany`);
 
 --
--- Indices de la tabla `consultationtable`
+-- Indexes for table `consultationtable`
 --
 ALTER TABLE `consultationtable`
   ADD PRIMARY KEY (`idconsultation`),
@@ -265,7 +273,7 @@ ALTER TABLE `consultationtable`
   ADD KEY `idcandidate` (`idcandidate`);
 
 --
--- Indices de la tabla `institutemajortable`
+-- Indexes for table `institutemajortable`
 --
 ALTER TABLE `institutemajortable`
   ADD PRIMARY KEY (`idinstitutemajor`),
@@ -273,119 +281,119 @@ ALTER TABLE `institutemajortable`
   ADD KEY `idmajor` (`idmajor`);
 
 --
--- Indices de la tabla `institutetable`
+-- Indexes for table `institutetable`
 --
 ALTER TABLE `institutetable`
   ADD PRIMARY KEY (`idinstitute`);
 
 --
--- Indices de la tabla `majortable`
+-- Indexes for table `majortable`
 --
 ALTER TABLE `majortable`
   ADD PRIMARY KEY (`idmajor`),
   ADD KEY `idtypemajor` (`idtypemajor`);
 
 --
--- Indices de la tabla `skilltable`
+-- Indexes for table `skilltable`
 --
 ALTER TABLE `skilltable`
   ADD PRIMARY KEY (`idskill`),
   ADD KEY `idmajor` (`idmajor`);
 
 --
--- Indices de la tabla `typemajortable`
+-- Indexes for table `typemajortable`
 --
 ALTER TABLE `typemajortable`
   ADD PRIMARY KEY (`idtypemajor`);
 
 --
--- Indices de la tabla `usertable`
+-- Indexes for table `usertable`
 --
 ALTER TABLE `usertable`
   ADD PRIMARY KEY (`iduser`);
 
 --
--- AUTO_INCREMENT de las tablas volcadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de la tabla `candidateclassskilltable`
+-- AUTO_INCREMENT for table `candidateclassskilltable`
 --
 ALTER TABLE `candidateclassskilltable`
   MODIFY `idcandidateclassskill` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `candidateinstitutemajortable`
+-- AUTO_INCREMENT for table `candidateinstitutemajortable`
 --
 ALTER TABLE `candidateinstitutemajortable`
   MODIFY `idcandidateinstitutemajor` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `candidateskilltable`
+-- AUTO_INCREMENT for table `candidateskilltable`
 --
 ALTER TABLE `candidateskilltable`
   MODIFY `idcandidateskill` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `classskilltable`
+-- AUTO_INCREMENT for table `classskilltable`
 --
 ALTER TABLE `classskilltable`
   MODIFY `idclassskill` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `classtable`
+-- AUTO_INCREMENT for table `classtable`
 --
 ALTER TABLE `classtable`
   MODIFY `idclass` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `companytable`
+-- AUTO_INCREMENT for table `companytable`
 --
 ALTER TABLE `companytable`
   MODIFY `idcompany` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `consultationtable`
+-- AUTO_INCREMENT for table `consultationtable`
 --
 ALTER TABLE `consultationtable`
   MODIFY `idconsultation` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `institutemajortable`
+-- AUTO_INCREMENT for table `institutemajortable`
 --
 ALTER TABLE `institutemajortable`
   MODIFY `idinstitutemajor` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `institutetable`
+-- AUTO_INCREMENT for table `institutetable`
 --
 ALTER TABLE `institutetable`
-  MODIFY `idinstitute` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `idinstitute` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
--- AUTO_INCREMENT de la tabla `majortable`
+-- AUTO_INCREMENT for table `majortable`
 --
 ALTER TABLE `majortable`
   MODIFY `idmajor` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `skilltable`
+-- AUTO_INCREMENT for table `skilltable`
 --
 ALTER TABLE `skilltable`
   MODIFY `idskill` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `typemajortable`
+-- AUTO_INCREMENT for table `typemajortable`
 --
 ALTER TABLE `typemajortable`
   MODIFY `idtypemajor` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT de la tabla `usertable`
+-- AUTO_INCREMENT for table `usertable`
 --
 ALTER TABLE `usertable`
-  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `iduser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
--- Restricciones para tablas volcadas
+-- Constraints for dumped tables
 --
 
 --
--- Filtros para la tabla `candidateclassskilltable`
+-- Constraints for table `candidateclassskilltable`
 --
 ALTER TABLE `candidateclassskilltable`
   ADD CONSTRAINT `candidateclassskilltable_ibfk_1` FOREIGN KEY (`idcandidate`) REFERENCES `candidatetable` (`idcandidate`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `candidateclassskilltable_ibfk_2` FOREIGN KEY (`idclassskill`) REFERENCES `classskilltable` (`idclassskill`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `candidateinstitutemajortable`
+-- Constraints for table `candidateinstitutemajortable`
 --
 ALTER TABLE `candidateinstitutemajortable`
   ADD CONSTRAINT `candidateinstitutemajortable_ibfk_1` FOREIGN KEY (`idinstitute`) REFERENCES `institutetable` (`idinstitute`) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -393,47 +401,47 @@ ALTER TABLE `candidateinstitutemajortable`
   ADD CONSTRAINT `candidateinstitutemajortable_ibfk_3` FOREIGN KEY (`idmajor`) REFERENCES `majortable` (`idmajor`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `candidateskilltable`
+-- Constraints for table `candidateskilltable`
 --
 ALTER TABLE `candidateskilltable`
   ADD CONSTRAINT `candidateskilltable_ibfk_1` FOREIGN KEY (`idcandidate`) REFERENCES `candidatetable` (`idcandidate`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `candidateskilltable_ibfk_2` FOREIGN KEY (`idskill`) REFERENCES `skilltable` (`idskill`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `classskilltable`
+-- Constraints for table `classskilltable`
 --
 ALTER TABLE `classskilltable`
   ADD CONSTRAINT `classskilltable_ibfk_1` FOREIGN KEY (`idclass`) REFERENCES `classtable` (`idclass`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `classskilltable_ibfk_2` FOREIGN KEY (`idskill`) REFERENCES `skilltable` (`idskill`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `classtable`
+-- Constraints for table `classtable`
 --
 ALTER TABLE `classtable`
   ADD CONSTRAINT `classtable_ibfk_1` FOREIGN KEY (`idmajor`) REFERENCES `majortable` (`idmajor`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `consultationtable`
+-- Constraints for table `consultationtable`
 --
 ALTER TABLE `consultationtable`
   ADD CONSTRAINT `consultationtable_ibfk_1` FOREIGN KEY (`idcompany`) REFERENCES `companytable` (`idcompany`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `consultationtable_ibfk_2` FOREIGN KEY (`idcandidate`) REFERENCES `candidatetable` (`idcandidate`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `institutemajortable`
+-- Constraints for table `institutemajortable`
 --
 ALTER TABLE `institutemajortable`
   ADD CONSTRAINT `institutemajortable_ibfk_1` FOREIGN KEY (`idinstitute`) REFERENCES `institutetable` (`idinstitute`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `institutemajortable_ibfk_2` FOREIGN KEY (`idmajor`) REFERENCES `majortable` (`idmajor`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `majortable`
+-- Constraints for table `majortable`
 --
 ALTER TABLE `majortable`
   ADD CONSTRAINT `majortable_ibfk_1` FOREIGN KEY (`idtypemajor`) REFERENCES `typemajortable` (`idtypemajor`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `skilltable`
+-- Constraints for table `skilltable`
 --
 ALTER TABLE `skilltable`
   ADD CONSTRAINT `skilltable_ibfk_1` FOREIGN KEY (`idmajor`) REFERENCES `majortable` (`idmajor`) ON DELETE CASCADE ON UPDATE CASCADE;
