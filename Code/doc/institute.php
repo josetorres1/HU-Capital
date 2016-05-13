@@ -46,6 +46,17 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
   $Result1 = mysql_query($insertSQL, $HU_Capital) or die(mysql_error());
 }
 
+if ((isset($_GET['idinstitute'])) && ($_GET['idinstitute'] != "")) {
+  $deleteSQL = sprintf("DELETE FROM institutetable WHERE idinstitute=%s",
+                       GetSQLValueString($_GET['idinstitute'], "int"));
+
+  mysql_select_db($database_HU_Capital, $HU_Capital);
+  $Result1 = mysql_query($deleteSQL, $HU_Capital) or die(mysql_error());
+
+  $deleteGoTo = "institute.php";
+  header(sprintf("Location: %s", $deleteGoTo));
+}
+
 mysql_select_db($database_HU_Capital, $HU_Capital);
 $query_Recordset1 = "SELECT * FROM institutetable";
 $Recordset1 = mysql_query($query_Recordset1, $HU_Capital) or die(mysql_error());
@@ -84,7 +95,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
       <td><img alt="logo_College" src="<?php echo $row_Recordset1['logoinstitute']; ?>"/></td>
       <td><?php echo $row_Recordset1['nameInstitute']; ?></td>
       <td><img src="images/edit-icon.png" width="32" height="32" alt="edit" /></td>
-      <td><img src="images/delete-icon.png" width="32" height="32" alt="delete" /></td>
+      <td><a href="institute.php?idinstitute=<?php echo $row_Recordset1['idinstitute']; ?>"><img src="images/delete-icon.png" width="32" height="32" alt="delete" /></a></td>
     </tr>
     <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
 </table>
