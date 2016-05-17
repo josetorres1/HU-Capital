@@ -22,15 +22,15 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">HU-Capital</a></h1>
+						<h1><a href="index.php">HU-Capital</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">INICIO</a></li>
-                                                                                        <li><a href="http://localhost/HU-Capital/login.php">CONSULTA</a></li>
+											<li><a href="index.php">INICIO</a></li>
+                                                                                        <li><a href="http://localhost/HU-Capital/login.php">usuarios</a></li>
 											<li><a href="convenios.html">Convenios</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->

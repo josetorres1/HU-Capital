@@ -12,11 +12,10 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
+
 	<body class="landing2">
 
-
-
-
+	
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -29,8 +28,8 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">INICIO</a></li>
-                                                                                        <li><a href="http://localhost/HU-Capital/login.php">CONSULTA</a></li>
+											<li><a href="index.php">INICIO</a></li>
+                                                                                        <li><a href="http://localhost/HU-Capital/login.php">INGRESAR</a></li>
 											<li><a href="convenios.html">Convenios</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->
@@ -48,7 +47,7 @@
 							<h2>ingresar</h2>
 							
                                             
-<form method="POST" action="consulta.php"> 
+<form method="POST" action="administrator.php"> 
 
     <p>Usuario: <input type="text" name="usuario"  id="usuario" ></p> 
     <p>Clave: <input type="password" name="clave" id="contrasena"></p> 
