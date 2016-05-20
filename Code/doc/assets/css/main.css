@@ -5,6 +5,23 @@
 	Autor: Dilan Zúniga
 */
 
+.formulario {
+display:block;
+margin:0 auto;
+width:510px;
+color: #666666;
+font-family:Arial;
+}
+
+input, textarea {
+background:#666666;
+border:2px solid #f6f6f6;
+padding:10px;
+margin-top:5px;
+font-size:10px;
+color:#ffffff;
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {

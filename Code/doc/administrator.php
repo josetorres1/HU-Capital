@@ -50,7 +50,7 @@
 										<ul>
 											<li><a href="index.php">INICIO</a></li>
                                                                                         <li><a href="http://localhost/HU-Capital/login.php">INGRESAR</a></li>
-											<li><a href="convenios.html">Convenios</a></li>
+											<li><a href="convenios.php">Convenios</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->
 											
