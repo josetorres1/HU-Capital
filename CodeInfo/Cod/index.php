@@ -198,9 +198,9 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.php">INICIO</a></li>
-                                                                                        <li><a href="http://localhost/HU-Capital/login.php">INGRESAR</a></li>
-											<li><a href="convenios.html">Convenios</a></li>
+											<li><a href="index.html">INICIO</a></li>
+                                                                                        <li><a href="http://localhost/HU-Capital/login.php">Ingresar</a></li>
+											<li><a href="convenios.php">Convenios</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->
 											
@@ -218,7 +218,7 @@
 							<p>HU-Capital es una plataforma centrada
 							a facilitar<br /> la administracińo del talento  humano</p>
 							<ul class="actions">
-								<li><a href="http://localhost/HU-Capital/login.php" class="button special">Consultar</a></li>
+								<li><a href="http://localhost/HU-Capital/login.php" class="button special">INGRESAR</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Leer más</a>
@@ -246,23 +246,20 @@
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.png" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<h2>segmento de usuario</h2>
+								<p>En esta página ustedes deberán ingresar su usuario proporcionado por la empresa.</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic02.png" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<h2>Segmento de consultas</h2>
+								<p>Una vez proporcionado el usario, a continuación se dirigirán a realizar las consultas de los candidatos, esto se ralizará con el número de identificación proporcionado. </p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/pic03.png" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<h2>InformaciÓn de candidatos</h2>
+								<p>Aquí encontraras toda la información personal y sobre las diferentes competencias que el candidato domina.</p>
 							</div>
 						</section>
 					</section>
@@ -271,34 +268,26 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>sobre nosotros</h2>
+								<p>Es una de las pocas plataformas que ofrece este tipo de servicio, esto nos convierte em una empresa de gran valor añadido, a continuación los diferentes beneficios que les brindamos a nuestros clientes:.</p>
 							</header>
 							<ul class="features">
 								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+									<h3>ÁGIL MODELO DE NEGOCIOS</h3>
+									<p>Poseemos un intercambio constante de información entre nuestros nuestros clientes y usuarios, para así crear y actualizar con la mayor brevedad posible nuestras ofertas.</p>
 								</li>
 								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+									<h3>iNFORMACIÓN VERÁZ</h3>
+									<p>Poseemos una base de datos de clientes exclusivos, ya que el usuario es aprobado únicamente por el administrador, esto con el motivo de una correcta verificación de la información proporcionada por él.</p>
 								</li>
 								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								  <h3>CREADO BAJO UN FRAMEWORK DE CALIDAD</h3>
+									<p>Su creación esta estructurada bajo la técnica MVC, en el cual se elabora con una estructura ordenada y de facil comprensión ,creando fluidez, confianza, versatilidad, entre otros.</p>
+									<p>Creado bajo Laravel que presenta grandes ventajas en el desarrollo web en PHP, apoyado en los avances de las nuevas versiones de PHP han ofrecido a la comunidad confiabilidad y más. </p>
 								</li>
 								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+									<h3>dISEÑO ATRACTIVO</h3>
+									<p>creada bajo un diseño plano, nos ayuda a tener una primer experiencia satisfactoria, sin tener complicaciones en su uso</p>
 								</li>
 							</ul>
 						</div>
@@ -308,12 +297,12 @@
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Se parte de nosotros</h2>
+								<p>Envíanos un mensaje para saber más sobre nosotros,nuestro equipo se contactará de manera inmediata.</p>
 							</header>
 							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="http://localhost/HU-Capital/login.php" class="button fit special">Consultar</a></li>
+								<li><a href="http://localhost/HU-Capital/contact.php" class="button fit">Contactar</a></li>
 							</ul>
 						</div>
 					</section>

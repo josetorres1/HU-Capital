@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        
+        <link type=”text/css” rel=”stylesheet” href=”assets/css/main.css”>
 	</head>
 	<body class="landing2">
 
@@ -24,15 +26,15 @@
 			
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">HU-Capital</a></h1>
+						<h1><a href="index.php">HU-Capital</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">INICIO</a></li>
-                                                                                        <li><a href="http://localhost/HU-Capital/login.php">CONSULTA</a></li>
+											<li><a href="index.php">INICIO</a></li>
+                                                                                        <li><a href="http://localhost/HU-Capital/login.php">INGRESAR</a></li>
 											<li><a href="convenios.html">Convenios</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->
@@ -47,30 +49,7 @@
 				<!-- Banner -->
 				
 					<section id="banner2">
-						<div class="inner">
-							<h2>IDENTIFICACIÓN</h2>
-					
-					<script>
-function usrpas(){
-<<<<<<< HEAD
-if (document.form1.txt.value=="001260495"){window.location="consulta.php";return}
-=======
-if (document.form1.txt.value=="001260495"){window.location="info.html";return}
->>>>>>> edf5605b1f55e4f6ef26220edd057c480a28c4d4
-if (document.form1.txt.value=="001260497"){window.location="administrator.php";return}
-if (document.form1.txt.value=="001260498"){window.location="index.htm";return}
- 
-else {alert("Este usuario no existe. Intenta de nuevo.")}
-}
-document.oncontextmenu=new Function("return false");
-</script>
-<form name="form1">
-<p>Usuario:<input type="text" name="txt" id="usuario"></p> <br>
-<input type="button" value="ir a.." onclick="usrpas()">
-</form>
-					
-		
-						</div>
+						<h2>EN CONSTRUCCIÓN</h2>
 						
 					</section>			
 					

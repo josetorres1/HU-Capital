@@ -4160,12 +4160,33 @@ color:#ffffff;
 		justify-content: center;
 		cursor: default;
 		height: 15%;
-		min-height: 5%;
+		min-height: 20%;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
 	}
 
+.competencia {
+	
+	float:left;
+	width: 40%;
+	height: 20%;		
+	}
+	
+	
+	.competencia2 {
+
+	width: 20%;
+	height: 20%;		
+	}
+	
+	
+	.habilidad{
+	
+		width: 100%;
+	height: 30em;		
+	}
+	
 
 
 
@@ -4177,12 +4198,20 @@ color:#ffffff;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: #fff;
-     margin: auto;
+     margin: 80px 0px 20px 16%;
      opacity: 0.2;
+	 padding: auto  ;
 
 }
 
 
+#fotof h3{
+	
+	padding: 0px 0px 5% 0%;
+    margin: -10% 0px 20px 40%;
+	width: 17%;
+	height: 80%;		
+	}
 
 
 
