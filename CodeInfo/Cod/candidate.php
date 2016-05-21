@@ -97,7 +97,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 
 				<!-- Header -->
 					<header id="header2" class="alt2">
-						<h1><a href="index.html">HU-Capital</a></h1>
+						<h1><a href="index.php">HU-Capital</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -106,7 +106,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 										<ul>
 											<li><a href="index.php">INICIO</a></li>
                                                                                         <li><a href="http://localhost/HU-Capital/login.php">INGRESAR</a></li>
-											<li><a href="convenios.html">Convenios</a></li>
+											<li><a href="convenios.php">Convenios</a></li>
 											<!--<li><a href="elements.html">Elements</a></li>-->
 											<!--<li><a href="#">Sign Up</a></li>-->
 											
@@ -254,6 +254,21 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
                 </div>
             </div>
         </div>
+		
+		
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+</body>
+		
+		
+		
+		
 
     </body>
 
