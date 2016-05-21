@@ -1,5 +1,5 @@
 # HU-Capital
     
 <center>
-<br> Aqui se encuentran todos los documentos referente al código del proyecto "HU-Capital"
+<br> Aqui se encuentran todo el código referente al proyecto "HU-Capital"
 </center>
