@@ -4145,72 +4145,116 @@ color:#ffffff;
 
 
 
-#fotof {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		cursor: default;
-		height: 15%;
-		min-height: 20%;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-	}
 
 .competencia {
-	
+	margin-top: 1%;
+	margin-left: 8%;
+	color: #000;
 	float:left;
 	width: 40%;
 	height: 20%;		
+	}
+	.competencia h3 {
+	
+	color: #000;		
+	}
+	.competencia h4 {
+	
+	color: #000;		
 	}
 	
 	
 	.competencia2 {
 
+	color: #000;
 	width: 20%;
 	height: 20%;		
 	}
+	.competencia2 h3 {
 	
+	color: #000;
+			
+	}
+	.competencia h4 {
+	
+	color: #000;		
+	}
 	
 	.habilidad{
 	
 		width: 100%;
-	height: 30em;		
+	height: 60em;
+background-color: #fff;	
 	}
 	
+	.habilidad2 {
+	
+	z-index: -1;
+	background-color: #fff ;
+		width: 100%;
+	height: 0em;		
+	}
+	
+	
+	
+#fotof {
+	
 
+	background-color: #000 ;
+	width: 100%;
+	height: 16em;		
+	}
+	
+	
+.A{
+	margin-top: 1%;
+	margin-left: 8%;
+	color: #000;
+	float:left;
+	width: 20%;
+	height: 20%;		
+	}	
+	
+	
 
 
 
 #foto {
-        width: 200px;
-     height: 200px;
+        width: 170px;
+     height: 170px;
      -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: #fff;
-     margin: 80px 0px 20px 16%;
-     opacity: 0.2;
+      margin: 10% 0px 0px 13%;
+     opacity: 0.7;
 	 padding: auto  ;
+
 
 }
 
 
-#fotof h3{
+	.uam{
 	
-	padding: 0px 0px 5% 0%;
-    margin: -10% 0px 20px 40%;
-	width: 17%;
-	height: 80%;		
+    width: 11em;
+	height: 11em;
+    margin: 10% 0em 0px 22%;   
+	}
+	
+	.porcentaje{
+	
+    width: 16em;
+	height: 16em;
+  
+	}
+	
+
+
+#fotof h5{
+	
+	padding: 8% 0px 0% 0%;
+    margin: 0% 0px 0px 0%;
+			
 	}
 
 

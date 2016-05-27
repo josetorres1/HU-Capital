@@ -52,11 +52,7 @@
 					
 					<script>
 function usrpas(){
-<<<<<<< HEAD
-if (document.form1.txt.value=="001260495"){window.location="consulta.php";return}
-=======
 if (document.form1.txt.value=="001260495"){window.location="info.html";return}
->>>>>>> edf5605b1f55e4f6ef26220edd057c480a28c4d4
 if (document.form1.txt.value=="001260497"){window.location="administrator.php";return}
 if (document.form1.txt.value=="001260498"){window.location="index.htm";return}
  
